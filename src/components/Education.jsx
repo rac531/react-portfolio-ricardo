@@ -1,6 +1,6 @@
 import { EDUCATION } from "../constants"
 import { motion } from "framer-motion"
-import { csntranscript } from '../assets/csntranscript.pdf'
+import { csntranscript } from '../projects/csntranscript.pdf'
 
 const Education = () => {
   return <div className="border-b border-neutral-900 pb-4">
