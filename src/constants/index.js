@@ -77,11 +77,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Pending",
+    title: "Bank Database",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A bank database that stores data from a txt file and can be updated and accessed with various user commands.",
+    technologies: ["C++"],
   },
 ];
 
