@@ -1,6 +1,5 @@
 import { EDUCATION } from "../constants"
 import { motion } from "framer-motion"
-import { csntranscript } from '../assets/csntranscript.pdf'
 
 const Education = () => {
   return <div className="border-b border-neutral-900 pb-4">
@@ -20,9 +19,6 @@ const Education = () => {
                 {/*<p className="mb-4 text-neutral-400">{education.description}</p>*/}
                 {education.highlights.map((highlight, index) => (<span key={index} className="mr-2 mt-4 rounded bg-neutral-900
                 px-2 py-1 text-sm font-medium text-red-600">{highlight}</span>))}
-                <a href={csntranscript} download="Cardenas_CSN_Transcript.pdf">
-                    <b className="mb-2 font-semibold">Transcript</b>
-                </a>
             </motion.div>
             <motion.div 
             whileInView={{opacity: 1, x: 0}}
