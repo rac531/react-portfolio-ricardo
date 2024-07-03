@@ -1,5 +1,4 @@
 import project1 from "../assets/projects/project-1.jpeg";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -9,7 +8,7 @@ export const HERO_CONTENT = `I am a full time computer science student with a pa
    and be able to use it to create innovative solutions that drive business growth and provide users
     great experiences.`;
 
-export const ABOUT_TEXT = `I am dedicated full-time student with a passion for learning new skills and creating
+export const ABOUT_TEXT = `I am a dedicated full-time student with a passion for learning new skills and creating
 efficient web applications. I am currently a junior at the University of Nevada, Las Vegas where I am working
 towards a Bachelor’s in Computer Science. I have experience programming in Python, C++, JavaScript and HTML
 and I am working on learning more languages as well as technologies within those languages. My current
@@ -63,7 +62,7 @@ export const EDUCATION = [
 ];
 export const PROJECTS = [
   {
-    title: "MeFest - work on title",
+    title: "MeFest",
     image: project1,
     description:
       "A website that displays your top artists on Spotify in an image in the form of a festival lineup.",
