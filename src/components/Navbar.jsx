@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
-import resume from "../assets/resume.pdf";
 
 const Navbar = () => {
   return (
@@ -25,13 +24,6 @@ const Navbar = () => {
             <FaFacebook />
           </a>
         </motion.div>
-        <div>
-          <a href={resume} download>
-            <p className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-600">
-                Resume
-            </p>
-          </a>
-        </div>
       </div>
     </nav>
   );
