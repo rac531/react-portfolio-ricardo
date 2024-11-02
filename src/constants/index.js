@@ -70,6 +70,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
+    title: "Handwritten Digit Identifier",
+    link: "https://github.com/rac531/Digit-Indentifer-Project/blob/main/digitIdentifier.ipynb",
+    image: project5,
+    description:
+      "A model that analyzes an image of a hand drawn digit and identifies the digit in the picture. The model has a 97% accuracy and was programmed in python using tensorflow to get the data and create/train the model, matplotlib to display the images, and numpy to work with arrays.",
+    technologies: ["Python", "Tensorflow", "Matplotlib", "NumPy"],
+  },
+  {
     title: "MeFest",
     link: "https://youtu.be/Eowd6ewhyyI",
     image: project1,
