@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpeg";
 
 export const HERO_CONTENT = `I am a full time computer science student with a passion for full stack
  software development which I am working towards a career in. In my 3 years of education and hands-on
