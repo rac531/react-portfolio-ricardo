@@ -3,17 +3,17 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpeg";
 
-export const HERO_CONTENT = `I am a full time computer science student with a passion for full stack
- software development which I am working towards a career in. In my 3 years of education and hands-on
+export const HERO_CONTENT = `I am a full time computer science student with a passion for machine
+ learning and fullstack software development. In my 3 years of education and hands-on
   experience, I have become proficient in Python, C++, JavaScript and HTML. My goal is to expand my skillset
    and be able to use it to create innovative solutions that drive business growth and provide users
     great experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated full-time student with a passion for learning new skills and creating
 efficient web applications. I am currently a junior at the University of Nevada, Las Vegas where I am working
-towards a Bachelor’s in Computer Science. I have experience programming in Python, C++, JavaScript and HTML
-and I am working on learning more languages as well as technologies within those languages. My current
-experience consists of assignments and personal projects and I am ready to apply my knowledge in the workforce.
+towards a Bachelor’s in Computer Science. Recently, I have found a passion for machine learning and AI and am
+currently acquiring the skills needed to be a machine learning/AI engineer. My current experience consists of 
+assignments and personal projects and I am ready to apply my knowledge in the workforce.
 I thrive in collaborative environments and enjoy solving complex issues to deliver high-quality solutions.
  Outside of coding, I enjoy exploring new things, specifically technology, restaurants, and music artists.`;
 

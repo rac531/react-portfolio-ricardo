@@ -3,6 +3,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiCplusplus } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { PiFileSqlFill } from "react-icons/pi";
+import { SiTensorflow } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -65,6 +67,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaHtml5 className="text-7xl text-red-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <PiFileSqlFill className="text-7xl text-red-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTensorflow className="text-7xl text-red-700" />
         </motion.div>
       </motion.div>
     </div>
