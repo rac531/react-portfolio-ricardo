@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpeg";
+import project6 from "../assets/projects/project-6.jpeg";
 
 export const HERO_CONTENT = `I am a full time computer science student with a passion for machine
  learning and fullstack software development. In my 3 years of education and hands-on
@@ -71,6 +72,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
+    title: "Image Text Translator",
+    link: "https://image-text-translator-but12rwbp-ricardo-cardenas-projects.vercel.app",
+    image: project6,
+    description:
+      "This is a website where a user uploads an image and selects a language. Using Microsoft Azure's OCR, any text detected in the image is extracted and using pythons translate library, the text is translated into the language specified by the user.",
+    technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
+  },
+  {
     title: "Handwritten Digit Identifier",
     link: "https://github.com/rac531/Digit-Indentifer-Project/blob/main/digitIdentifier.ipynb",
     image: project5,
@@ -94,6 +103,7 @@ export const PROJECTS = [
       "A database that reads and stores a csv file containing a bank's data. Users are then presented with multiple prompts and different data is updated and/or displayed depending on the user’s responses. Utilized a C++ file with a header file containing a custom made hashmap used to store the data. After the file is stored in a hashmap data structure, the user is given questions such as the branch name, account name and account pin in order to securely access the right data. The user then has the option to view the account, make a deposit, and make a withdrawal",
     technologies: ["C++"],
   },
+  
 ];
 
 export const CONTACT = {
