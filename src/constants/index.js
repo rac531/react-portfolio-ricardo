@@ -73,7 +73,7 @@ export const PROJECTS = [
   },
   {
     title: "Image Text Translator",
-    link: "https://image-text-translator-but12rwbp-ricardo-cardenas-projects.vercel.app",
+    link: "https://image-text-translator-eight.vercel.app",
     image: project6,
     description:
       "This is a website where a user uploads an image and selects a language. Using Microsoft Azure's OCR, any text detected in the image is extracted and using pythons translate library, the text is translated into the language specified by the user.",
