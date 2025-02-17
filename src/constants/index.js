@@ -1,8 +1,8 @@
 import project1 from "../assets/projects/project-1.jpeg";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpeg";
 import project6 from "../assets/projects/project-6.jpeg";
+import expenseproject from "../assets/projects/expense-project.png";
+import iotImage from "../assets/projects/IoTImage.jpeg";
 
 export const HERO_CONTENT = `I am a full time computer science student with a passion for machine
  learning and fullstack software development. In my 3 years of education and hands-on
@@ -21,12 +21,10 @@ I thrive in collaborative environments and enjoy solving complex issues to deliv
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Digital Personal Shopper",
+    role: "Digital Team Associate",
     company: "Walmart",
-    description: `Served customers with knowledgeable and friendly support by answering questions regarding products and price checks.
-    Operated digital devices to pick items ordered by customers, stage orders in the storage area, and perform quality checks.
-    Dispensed an average of 80 orders a day to customers in a timely fashion, reviewing substitutions for customer approval, and loading groceries into customer vehicle
-    `,
+    description: `Responsible for leading the team in charge of online orders when the manager was not present. Managed the backroom and assigned tasks accordingly as well as reviewed performance metrics, planned for the day ahead, and addressed
+    customer concerns. Dispense an average of 80 orders a day to customers in a timely fashion, reviewing substitutions for customer approval.`,
   },
   {
     year: "2022 - 2023",
@@ -44,7 +42,7 @@ export const EXPERIENCES = [
     Communicated with other colleagues to identify and resolve technical problems as well as set up technology needs at events throughout all CSN campuses.
     Responded to an average of 15 help tickets relating to issues with campus software or hardware.
     `,
-  }
+  },
 ];
 export const EDUCATION = [
   {
@@ -60,16 +58,32 @@ export const EDUCATION = [
     school: "College of Southern Nevada",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     highlights: ["Deans List", "3.6 GPA"],
-  }
+  },
 ];
 export const PROJECTS = [
   {
+    title: "Expense Tracker",
+    link: "#",
+    image: project4,
+    description:
+      "A multi-page website where a user can register and log into their account to upload and keep track of their expenses. Built using Python and Flask. Utilized Bootstrap for the frontend and PostgreSQL on AWS RDS for the database. Containerized the application using Docker and deployed it on AWS ECS.",
+    technologies: ["Python", "Flask", "Bootstrap", "Docker", "AWS"],
+  },
+  {
     title: "Portfolio Website",
     link: "#",
-    image: project3,
+    image: expenseproject,
     description:
       "This is a website that acts as my portfolio. It contains my information, social media links, transcript downloads, and a link to send me an email. The website was constructed using the React library in JavaScript. Each element of the website was deconstructed in separate files to allow different functions and animations throughout the webpage. Each element has its own Javascript file and CSS file for formatting. The result is a multifunctional webpage that works across desktops and different mobile devices. It has many elements like images, external links and animations",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  },
+  {
+    title: "IoT Sensor Data Anomaly Detector",
+    link: "#",
+    image: iotImage,
+    description:
+      "Built a data pipeline using Kafka that consists of a producer python file that generates IoT sensor data (temperature and humidity) and sends it to a kafka topic. A consumer python file then reads the data from Kafka, processes it and then uses a trained machine model to detect and flag anomalies in real-time.",
+    technologies: ["Python", "Kafka"],
   },
   {
     title: "Image Text Translator",
@@ -78,14 +92,6 @@ export const PROJECTS = [
     description:
       "This is a website where a user uploads an image and selects a language. Using Microsoft Azure's OCR, any text detected in the image is extracted and using pythons translate library, the text is translated into the language specified by the user.",
     technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
-  },
-  {
-    title: "Handwritten Digit Identifier",
-    link: "https://github.com/rac531/Digit-Indentifer-Project/blob/main/digitIdentifier.ipynb",
-    image: project5,
-    description:
-      "A model that analyzes an image of a hand drawn digit and identifies the digit in the picture. The model has a 97% accuracy and was programmed in python using tensorflow to get the data and create/train the model, matplotlib to display the images, and numpy to work with arrays.",
-    technologies: ["Python", "Tensorflow", "Matplotlib", "NumPy"],
   },
   {
     title: "MeFest",
@@ -103,7 +109,6 @@ export const PROJECTS = [
       "A database that reads and stores a csv file containing a bank's data. Users are then presented with multiple prompts and different data is updated and/or displayed depending on the user’s responses. Utilized a C++ file with a header file containing a custom made hashmap used to store the data. After the file is stored in a hashmap data structure, the user is given questions such as the branch name, account name and account pin in order to securely access the right data. The user then has the option to view the account, make a deposit, and make a withdrawal",
     technologies: ["C++"],
   },
-  
 ];
 
 export const CONTACT = {
