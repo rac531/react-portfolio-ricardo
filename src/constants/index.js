@@ -21,6 +21,12 @@ I thrive in collaborative environments and enjoy solving complex issues to deliv
 
 export const EXPERIENCES = [
   {
+    year: "2026 - Present",
+    role: "AI Trainer",
+    company: "Handshake AI Fellowship",
+    description: 'Developed and evaluated prompts to assess the performance of large language models. Analyzed LLM outputs for scientific accuracy, clarity, and depth in specialized subfields. Conducted independent research to support prompt development and evaluation tasks',
+  },
+  {
     year: "2023 - Present",
     role: "Digital Team Associate / Delivery Driver",
     company: "Walmart",
@@ -85,14 +91,6 @@ export const PROJECTS = [
     technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
   },
   {
-    title: "Image Text Translator",
-    link: "https://image-text-translator-eight.vercel.app",
-    image: project6,
-    description:
-      "This is a website where a user uploads an image and selects a language. Using Microsoft Azure's OCR, any text detected in the image is extracted and using pythons translate library, the text is translated into the language specified by the user.",
-    technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
-  },
-  {
     title: "IoT Sensor Data Anomaly Detector",
     link: "#",
     image: project7,
@@ -119,7 +117,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "6324 Barkstone Ave, Las Vegas, NV 89108",
+  address: "Las Vegas, NV 89108",
   phoneNo: "702-272-5109",
   email: "cardenasr541@gmail.com",
 };
