@@ -4,7 +4,6 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpeg";
 import project7 from "../assets/projects/project-7.jpeg";
 
-
 export const HERO_CONTENT = `I am a full time computer science student with a passion for machine
  learning and fullstack software development. In my 3 years of education and hands-on
   experience, I have become proficient in Python, C++, JavaScript and HTML. My goal is to expand my skillset
@@ -24,7 +23,8 @@ export const EXPERIENCES = [
     year: "2026 - Present",
     role: "AI Trainer",
     company: "Handshake AI Fellowship",
-    description: 'Developed and evaluated prompts to assess the performance of large language models. Analyzed LLM outputs for scientific accuracy, clarity, and depth in specialized subfields. Conducted independent research to support prompt development and evaluation tasks',
+    description:
+      "Developed and evaluated prompts to assess the performance of large language models. Analyzed LLM outputs for scientific accuracy, clarity, and depth in specialized subfields. Conducted independent research to support prompt development and evaluation tasks",
   },
   {
     year: "2023 - Present",
@@ -46,7 +46,7 @@ environment.`,
     year: "2021 - 2022",
     role: "Office of Technology Services Assistant",
     company: "College of Southern Nevada",
-    description: `Performed hardware and software maintenance on campus computer systems, ensuring reliable operation across multiple locations. Collaborated with IT staff to troubleshoot and resolve technical problems, reducing downtime for students and faculty. Supported setup and configuration of technology for campus events, including A V equipment and network connectivity. Assisted with system diagnostics, equipment deployment, and technical issue resolution across multiple campuses.`,
+    description: `Performed hardware and software maintenance on campus computer systems, ensuring reliable operation across multiple locations. Collaborated with IT staff to troubleshoot and resolve technical problems, reducing downtime for students and faculty. Supported setup and configuration of technology for campus events, including AV equipment and network connectivity. Assisted with system diagnostics, equipment deployment, and technical issue resolution across multiple campuses.`,
   },
 ];
 export const EDUCATION = [
@@ -54,14 +54,14 @@ export const EDUCATION = [
     year: "May 2025",
     degree: "Bachelors in Computer Science",
     school: "University of Nevada, Las Vegas",
-    //description: 
+    //description:
     highlights: ["Deans List", "3.5 GPA"],
   },
   {
     year: "May 2022",
     degree: "Associate of Science",
     school: "College of Southern Nevada",
-    //description: 
+    //description:
     highlights: ["Deans List", "3.6 GPA"],
   },
 ];
