@@ -85,12 +85,20 @@ export const PROJECTS = [
     technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
   },
   {
-    title: "Handwritten Digit Identifier",
-    link: "https://github.com/rac531/Digit-Indentifer-Project/blob/main/digitIdentifier.ipynb",
-    image: project5,
+    title: "IoT Sensor Data Anomaly Detector",
+    link: "#",
+    image: iotImage,
     description:
-      "A model that analyzes an image of a hand drawn digit and identifies the digit in the picture. The model has a 97% accuracy and was programmed in python using tensorflow to get the data and create/train the model, matplotlib to display the images, and numpy to work with arrays.",
-    technologies: ["Python", "Tensorflow", "Matplotlib", "NumPy"],
+      "Built a data pipeline using Kafka that consists of a producer python file that generates IoT sensor data (temperature and humidity) and sends it to a kafka topic. A consumer python file then reads the data from Kafka, processes it and then uses a trained machine model to detect and flag anomalies in real-time.",
+    technologies: ["Python", "Kafka"],
+  },
+  {
+    title: "Image Text Translator",
+    link: "https://image-text-translator-eight.vercel.app",
+    image: project6,
+    description:
+      "This is a website where a user uploads an image and selects a language. Using Microsoft Azure's OCR, any text detected in the image is extracted and using pythons translate library, the text is translated into the language specified by the user.",
+    technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
   },
   {
     title: "IoT Sensor Data Anomaly Detector",
