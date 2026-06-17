@@ -85,14 +85,6 @@ export const PROJECTS = [
     technologies: ["Python", "React", "Azure", "Render", "Vercel", "Flask"],
   },
   {
-    title: "IoT Sensor Data Anomaly Detector",
-    link: "#",
-    image: iotImage,
-    description:
-      "Built a data pipeline using Kafka that consists of a producer python file that generates IoT sensor data (temperature and humidity) and sends it to a kafka topic. A consumer python file then reads the data from Kafka, processes it and then uses a trained machine model to detect and flag anomalies in real-time.",
-    technologies: ["Python", "Kafka"],
-  },
-  {
     title: "Image Text Translator",
     link: "https://image-text-translator-eight.vercel.app",
     image: project6,
