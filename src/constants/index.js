@@ -10,13 +10,12 @@ export const HERO_CONTENT = `I am a full time computer science student with a pa
    and be able to use it to create innovative solutions that drive business growth and provide users
     great experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated full-time student with a passion for learning new skills and creating
-efficient web applications. I am currently a junior at the University of Nevada, Las Vegas where I am working
-towards a Bachelor’s in Computer Science. Recently, I have found a passion for machine learning and AI and am
-currently acquiring the skills needed to be a machine learning/AI engineer. My current experience consists of 
-assignments and personal projects and I am ready to apply my knowledge in the workforce.
-I thrive in collaborative environments and enjoy solving complex issues to deliver high-quality solutions.
- Outside of coding, I enjoy exploring new things, specifically technology, restaurants, and music artists.`;
+export const ABOUT_TEXT = `I'm a recent Computer Science graduate with hands-on experience in both IT support and full-stack software development. 
+Through roles in technical support and customer-facing environments, I've developed strong problem-solving, communication, and customer service skills 
+that allow me to bridge the gap between technology and the people who use it. My greatest interests lie in artificial intelligence and machine learning, 
+where I enjoy building solutions that leverage data to solve real-world problems. In addition to developing full-stack applications, I am passionate about 
+using technology to give back to my community through websites, technical assistance, and tools that make everyday tasks easier. I strive to combine technical expertise, 
+continuous learning, and a service-oriented mindset to create meaningful and impactful solutions.`;
 
 export const EXPERIENCES = [
   {
