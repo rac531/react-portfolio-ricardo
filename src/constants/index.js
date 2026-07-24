@@ -10,12 +10,8 @@ export const HERO_CONTENT = `I am a full time computer science student with a pa
    and be able to use it to create innovative solutions that drive business growth and provide users
     great experiences.`;
 
-export const ABOUT_TEXT = `I'm a recent Computer Science graduate with hands-on experience in both IT support and full-stack software development. 
-Through roles in technical support and customer-facing environments, I've developed strong problem-solving, communication, and customer service skills 
-that allow me to bridge the gap between technology and the people who use it. My greatest interests lie in artificial intelligence and machine learning, 
-where I enjoy building solutions that leverage data to solve real-world problems. In addition to developing full-stack applications, I am passionate about 
-using technology to give back to my community through websites, technical assistance, and tools that make everyday tasks easier. I strive to combine technical expertise, 
-continuous learning, and a service-oriented mindset to create meaningful and impactful solutions.`;
+export const ABOUT_TEXT = `I'm a recent Computer Science graduate with hands-on experience in IT support and full-stack software development. Through technical support and customer-facing roles, I've developed strong problem-solving, communication, and customer service skills that help me bridge the gap between technology and the people who use it.
+I'm currently pursuing my CCNA certification and working toward a career in IT, with the goal of becoming a Network Engineer. While networking is my primary focus, I continue to build full-stack applications and explore AI and machine learning through personal projects. I'm passionate about continuous learning, solving technical challenges, and using technology to create practical solutions that make a positive impact.`;
 
 export const EXPERIENCES = [
   {
