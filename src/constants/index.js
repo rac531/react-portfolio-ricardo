@@ -3,6 +3,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpeg";
 import project7 from "../assets/projects/project-7.jpeg";
+import project8 from "../assets/projects/project-8.jpeg";
 
 export const HERO_CONTENT = `I am a full time computer science student with a passion for machine
  learning and fullstack software development. In my 3 years of education and hands-on
@@ -61,14 +62,14 @@ export const EDUCATION = [
   },
 ];
 export const PROJECTS = [
-  // {
-  //   title: "Portfolio Website",
-  //   link: "#",
-  //   image: project3,
-  //   description:
-  //     "This is a website that acts as my portfolio. It contains my information, social media links, transcript downloads, and a link to send me an email. The website was constructed using the React library in JavaScript. Each element of the website was deconstructed in separate files to allow different functions and animations throughout the webpage. Each element has its own Javascript file and CSS file for formatting. The result is a multifunctional webpage that works across desktops and different mobile devices. It has many elements like images, external links and animations",
-  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  // },
+  {
+    title: "NetNerd",
+    link: "https://net-nerd-tep7.vercel.app",
+    image: project8,
+    description:
+     "This is a full-stack quiz platform for CCNA exam prep. A user is able to create an account and practice questions related to the CCNA exam topic outline.  User is able to accrue XP from correct answers and rank up.",
+    technologies: ["Next.js", "Typescript", "Tailwind", "Supabase"],
+  },
   {
     title: "Expense Tracker",
     link: "#",
